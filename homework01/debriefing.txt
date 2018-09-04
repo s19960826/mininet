@@ -1,0 +1,14 @@
+
+1. We spend totally 30 hours on this homework (including the time for discussion)
+
+2. We would rate it as difficult.
+
+3. We discuss all the questions together, but
+
+   - Chih-Yuan Sun is responsible for writing exercise 1 and exercise 4 and all of the documentation.
+
+   - Yu-Hsuan Chen is responsible for writing the code of exercise 2 and exercise 3.
+
+4. 65%. Since we believe that there many many different applications on Mininet, and this homework only covers a small part of it (although this homework is hard enough for us)
+
+5. We learn a lot from this homework. Thank you so much !!

@@ -1,0 +1,33 @@
+There are many different type of messages displayed in Wireshark.
+
+For example:
+
+1. of_hello
+- Because this message only appear a few times when we start the Mininet. We guess this is the message like TCP handshake or the connection setup between the controller and switch.
+
+2. of_features_request
+- We guess this message appear when the controller want to get the configuration or information of switch. ex: the port setting
+
+3. of features_reply
+- Switch send its configuration and the port setting back to the controller.
+
+4. of_set_config
+- We guess the message appears when the controller want to change the switch's configuration. ex: change the port setting or change the content of flow table.
+
+5. of_flow_delete + of_berrier_request
+- The controller want the switch to delete some flows from the flow table. The controller also want the switch to queue all incoming messages and process prior messages.
+
+For this message type, we make reference from the webpage:
+https://www.juniper.net/documentation/en_US/junos/topics/concept/junos-sdn-openflow-messages-barrier-overview.html
+
+
+6. of barrier_reply
+- The switch reply to the controller after it complete processing prior messages.
+
+7. of_echo_request 
+- The controller wants to make sure that the connection with the switch still works.
+
+8. of_echo_reply
+- The switch reply to the of_echo_request massage.
+
+
